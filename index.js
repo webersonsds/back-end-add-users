@@ -5,7 +5,7 @@ const uuid = require('uuid')
 const cors = require('cors')
 
 
-const port = process.env.PORT || 3001     // configuraçao da porta para rodar projeto
+const port =  3001     // configuraçao da porta para rodar projeto
 
 const users = [ ]
 
@@ -89,6 +89,6 @@ app.delete('/users/:id', checkUserId, (request, response) => {
 
 app.listen(3001, () => {
 
-    console.log(`Server started on port 3009 ${port}`)
+    console.log(`Server started on port 3001 ${port}`)
 
 })
